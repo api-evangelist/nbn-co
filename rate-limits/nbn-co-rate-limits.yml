@@ -1,0 +1,11 @@
+name: NBN Co rate limits
+generated: '2026-10-22'
+method: none
+limit_count: 0
+limits: []
+note: >-
+  No rate limits are published. The only API surface (B2B Access via the nbn-hosted API gateway) is
+  governed by confidential B2B Specifications supplied to contracted RSPs; the public Platform
+  Interfacing Service terms state no request limits.
+checked:
+- https://www.nbnco.com.au/content/dam/nbn/documents/sell/wba/2024/sfaa-wba-nbn-platform-interfacing-service-service-terms-20241003.pdf.coredownload.pdf

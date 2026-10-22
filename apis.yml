@@ -1,23 +1,137 @@
 aid: nbn-co
+
 name: NBN Co
-description: 'NBN Co is a company surfaced via the API Evangelist harvest backlog (source: australia-apidays-2026)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: 'NBN Co (styled "nbn") is the Australian Government-owned wholesale operator of the
+  National Broadband Network, building and running the fixed-line, fixed wireless and satellite
+  access network that retail service providers (RSPs) resell to homes and businesses across
+  Australia. Its website describes the mission as "evolving Australia''s digital backbone to meet
+  the ever-changing needs of people across the country." NBN Co does not publish a public developer
+  API; its Wholesale Broadband Agreement Platform Interfacing Service terms describe B2B Access for
+  contracted RSPs through an API gateway hosted by nbn and an nbn Developer Portal, both gated to
+  wholesale customers. Surfaced via the API Evangelist harvest backlog (source: australia-apidays-2026).'
+
 url: https://raw.githubusercontent.com/api-evangelist/nbn-co/refs/heads/main/apis.yml
+
+image: https://www.nbnco.com.au/content/config/website-footer/_jcr_content/root/container/website_footer_new/imageLogo.coreimg.png/1687751244726/nbn-logo.png
+
 x-type: company
+
 x-source: harvest:australia-apidays-2026
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-22 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-22'
+
 modified: '2026-10-22'
+
 tags:
 - Company
-apis: []
+- Telecommunications
+- Broadband
+- Wholesale
+- Australia
+- Network Infrastructure
+- B2B
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Plans
+  url: plans/nbn-co-plans-pricing.yml
+- type: Authentication
+  url: authentication/nbn-co-authentication.yml
+- type: StatusPage
+  url: https://www.nbnco.com.au/support/network-status
+- type: Lifecycle
+  url: lifecycle/nbn-co-lifecycle.yml
+- type: Hosts
+  url: hosts/nbn-co-hosts.yml
+- type: Vendors
+  url: vendors/nbn-co-vendors.yml
+- type: SignUp
+  url: https://www.nbnco.com.au/register
+- type: DomainSecurity
+  url: security/nbn-co-domain-security.yml
 - type: Website
-  url: https://nbnco.com.au/
+  url: https://www.nbnco.com.au/
+- type: Blog
+  url: https://www.nbnco.com.au/blog
+- type: Newsroom
+  url: https://www.nbnco.com.au/corporate-information/about-nbn-co/newsroom
+- type: Support
+  url: https://www.nbnco.com.au/support
+- type: NetworkStatus
+  url: https://www.nbnco.com.au/support/network-status
+- type: Plans
+  url: https://www.nbnco.com.au/business/small-business/plans
+- type: Careers
+  url: https://www.nbnco.com.au/corporate-information/careers
+- type: TermsOfService
+  url: https://www.nbnco.com.au/utility/terms-and-conditions-of-use
+- type: PrivacyPolicy
+  url: https://www.nbnco.com.au/utility/privacy-policy
+- type: PlatformInterfacingServiceTerms
+  url: https://www.nbnco.com.au/content/dam/nbn/documents/sell/wba/2024/sfaa-wba-nbn-platform-interfacing-service-service-terms-20241003.pdf.coredownload.pdf
+
+apis:
+- aid: nbn-co:nbn-platform-interfacing-service-b2b-access
+  name: nbn Platform Interfacing Service (B2B Access)
+  description: 'B2B Access under the Wholesale Broadband Agreement Platform Interfacing Service: contracted
+    retail service providers integrate their RSP B2B Applications with an API gateway hosted by nbn,
+    using digital certificates and API Credentials, per the B2B Specifications and the nbn Developer
+    Portal, both of which nbn treats as confidential information supplied only to RSPs. No public base
+    URL or machine-readable contract is published.'
+  humanURL: https://www.nbnco.com.au/content/dam/nbn/documents/sell/wba/2024/sfaa-wba-nbn-platform-interfacing-service-service-terms-20241003.pdf.coredownload.pdf
+  tags:
+  - B2B
+  - Wholesale
+  - Broadband
+  properties:
+  - type: Documentation
+    url: https://www.nbnco.com.au/content/dam/nbn/documents/sell/wba/2024/sfaa-wba-nbn-platform-interfacing-service-service-terms-20241003.pdf.coredownload.pdf
+
+x-coverage:
+  state: covered
+  reason: identity-verified
+  detail: Website, logo and link pointers confirmed live on www.nbnco.com.au (browser UA). No public
+    developer portal, API reference, GitHub org (github.com/nbnco 404) or Postman workspace found;
+    the B2B API gateway and nbn Developer Portal are described only in WBA contract terms and gated
+    to RSPs. /register was not fetched (probe-safety rule) and not recorded; /sell 404. Plans page
+    lists wholesale speed tiers without prices, so it is typed Plans, not Pricing.
+  evidence:
+  - url: https://www.nbnco.com.au/
+    status: 200
+  - url: https://www.nbnco.com.au/blog
+    status: 200
+  - url: https://www.nbnco.com.au/corporate-information/about-nbn-co/newsroom
+    status: 200
+  - url: https://www.nbnco.com.au/support
+    status: 200
+  - url: https://www.nbnco.com.au/support/network-status
+    status: 200
+  - url: https://www.nbnco.com.au/business/small-business/plans
+    status: 200
+  - url: https://www.nbnco.com.au/corporate-information/careers
+    status: 200
+  - url: https://www.nbnco.com.au/utility/terms-and-conditions-of-use
+    status: 200
+  - url: https://www.nbnco.com.au/utility/privacy-policy
+    status: 200
+  - url: https://www.nbnco.com.au/content/dam/nbn/documents/sell/wba/2024/sfaa-wba-nbn-platform-interfacing-service-service-terms-20241003.pdf.coredownload.pdf
+    status: 200
+  - url: https://github.com/nbnco
+    status: 404
+x-enrichment:
+  date: '2026-10-22'
+  status: enriched
+  artifacts_added: 12
+  pass: modular-v1
+  engine: identity=anthropic,contract=anthropic,surfaces=anthropic,docs=anthropic,regulatory=anthropic

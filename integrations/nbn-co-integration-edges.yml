@@ -1,0 +1,23 @@
+generated: '2026-10-22'
+method: none
+source:
+- https://zapier.com/apps/nbn-co/integrations
+- https://n8n.io/integrations/nbn-co/
+- https://composio.dev/toolkits/nbn-co
+- https://monid.ai/tools/nbn-co
+checked:
+- https://zapier.com/apps/nbn/integrations
+- https://www.make.com/en/integrations/nbn
+- https://n8n.io/integrations/nbn
+- https://www.nbnco.com.au/content/dam/nbn/documents/sell/wba/2024/sfaa-wba-nbn-platform-interfacing-service-service-terms-20241003.pdf.coredownload.pdf
+- https://composio.dev/toolkits/nbn-co
+- https://monid.ai/tools/nbn-co
+- https://n8n.io/integrations/nbn-co/
+- https://zapier.com/apps/nbn-co/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
+note: NBN Co publishes no public API, app listing or integrations/partners page for developers. Its only API surface
+  is the confidential B2B Platform Interfacing Service for contracted retail service providers, whose integrating
+  parties are not named publicly.

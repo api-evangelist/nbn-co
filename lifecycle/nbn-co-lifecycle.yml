@@ -1,0 +1,16 @@
+name: NBN Co lifecycle
+generated: '2026-10-22'
+method: searched
+source: https://www.nbnco.com.au/content/dam/nbn/documents/sell/wba/2024/sfaa-wba-nbn-platform-interfacing-service-service-terms-20241003.pdf.coredownload.pdf
+versioning:
+  policy: null
+  note: No public API versioning or deprecation policy is published; the B2B Specifications are confidential. The service terms document itself is versioned ("5.0 First issued version of WBA 5, 1 December 2023").
+deprecation:
+  policy: null
+  headers: []
+status_page: https://www.nbnco.com.au/support/network-status
+status_page_note: Network status page for the broadband network itself (existing NetworkStatus pointer), not a B2B API status page.
+maintenance:
+  planned_outages: "nbn will ensure that at least one weekend in each month is not subject to a Planned Outage in respect of the nbn® Platform Interfacing Service."
+  exceptions: "Section 6(a) does not apply in respect of NPIS Preventative Maintenance Outages or Emergency Outages."
+  preventative_maintenance: "In accordance with the WBA Operations Manual, nbn may implement a Planned Outage in respect of the nbn® Platform Interfacing Service (an NPIS Preventative Maintenance Outage) if nbn considers the Planned Outage is necessary"

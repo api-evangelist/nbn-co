@@ -1,0 +1,22 @@
+name: NBN Co MCP Server
+description: >-
+  No official NBN Co MCP server was found. NBN Co publishes no public developer API or
+  machine-readable contract (its B2B Access API gateway and nbn Developer Portal are gated to
+  contracted retail service providers under the Wholesale Broadband Agreement), so there are no
+  public OpenAPI operations from which to derive a candidate tool list.
+generated: '2026-10-22'
+method: none
+status: none
+deployment:
+  mode: none
+  auth: unknown
+  verified: searched
+tools: []
+evidence:
+- url: https://www.nbnco.com.au/.well-known/mcp.json
+  status: 404
+- url: https://www.nbnco.com.au/mcp
+  status: 403
+  note: Pre-flight control path also returned 403 (edge answers 403 for any unknown path); opaque, proves nothing. Not advertised by the provider, not called further.
+- search: '"nbn" NBN Co MCP server Model Context Protocol'
+  result: no NBN Co MCP server, package or registry listing found

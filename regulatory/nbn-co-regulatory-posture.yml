@@ -1,0 +1,84 @@
+generated: '2026-10-22'
+method: searched
+source: https://www.nbnco.com.au/utility/privacy-policy
+signals:
+  data_subject_request:
+    url: https://www.nbnco.com.au/utility/privacy-policy
+    section: '7. Accessing, updating and correcting your personal information'
+    stated_sla: 'We try to make your personal information available within 30 days after you ask us for it.'
+    rights_named: [access, copy, correction, update]
+    escalation: Office of the Australian Information Commissioner
+    evidence:
+    - source: https://www.nbnco.com.au/utility/privacy-policy
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: 'You can ask to access the personal information that we hold about you, or to update or correct it.'
+    - source: https://www.nbnco.com.au/utility/privacy-policy
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: 'We try to make your personal information available within 30 days after you ask us for it. Before we give you your personal information, we may need to confirm your identity.'
+    - source: https://www.nbnco.com.au/utility/privacy-policy
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: 'If you are not satisfied with how we have managed your complaint, you can ask us to review your complaint. Or you can complain to the Office of the Australian Information Commissioner.'
+    note: >-
+      Access, copy and correction rights with a stated 30-day target, possible access fee (correction is free),
+      and escalation to the OAIC. Deletion and portability are not offered as rights on this page.
+  data_retention:
+    url: https://www.nbnco.com.au/utility/privacy-policy
+    section: '6. Keeping your personal information safe'
+    evidence:
+    - source: https://www.nbnco.com.au/utility/privacy-policy
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: 'When we no longer need personal information and are lawfully able to do so, we take reasonable steps to destroy or de-identify it.'
+    - source: https://www.nbnco.com.au/utility/privacy-policy
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: 'As a Government Business Enterprise, we are subject to the Archives Act 1983 (Cth) which requires us to retain certain records for specified periods.'
+    note: >-
+      A need-based retention principle with destruction or de-identification at end of need; no fixed periods are
+      published, and statutory retention under the Archives Act 1983 overrides.
+  subprocessors:
+    url: https://www.nbnco.com.au/utility/privacy-policy/country-list
+    section: 'Sending personal information overseas'
+    disclosure_level: countries-only
+    countries: [Canada, Chile, China, England, Finland, India, Ireland, Israel, Japan, Malaysia, Netherlands, New Zealand, Philippines, Sweden, Thailand, United States of America]
+    evidence:
+    - source: https://www.nbnco.com.au/utility/privacy-policy
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: 'We also share personal information with people and organisations that help us with our business, such as professional advisors, IT support, and corporate and administrative services.'
+    - source: https://www.nbnco.com.au/utility/privacy-policy/country-list
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: 'The countries that our suppliers are located in include:'
+    note: >-
+      Categories of service providers are described and a list of supplier countries is published, but no named
+      subprocessor list was found.
+  data_residency:
+    url: https://www.nbnco.com.au/utility/privacy-policy
+    section: 'Sending personal information overseas'
+    evidence:
+    - source: https://www.nbnco.com.au/utility/privacy-policy
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: 'Some of our service providers are located or operate outside of Australia. Where we need to, we send or give them access to personal information so that they can provide us with their services. We take steps to ensure that your personal information is at least as secure as it would be in Australia.'
+    note: >-
+      This is a disclosure of cross-border transfer, not a residency commitment: personal information may be sent
+      outside Australia to suppliers in the 16 listed countries.
+  accessibility_conformance:
+    url: https://www.nbnco.com.au/utility/accessibility
+    standard: WCAG 2 Level AA (target)
+    evidence:
+    - source: https://www.nbnco.com.au/utility/accessibility
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: 'The nbn website aims to comply with WCAG 2, Level AA.'
+    - source: https://www.nbnco.com.au/utility/accessibility
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: 'While we strive to make all content accessible, some elements of our website may not yet meet all WCAG requirements.'
+    note: >-
+      This is a stated target with partial conformance acknowledged, not a claim of full conformance. It covers the
+      website, not any API or wholesale platform.

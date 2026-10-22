@@ -1,0 +1,41 @@
+name: NBN Co pricing
+generated: '2026-10-22'
+method: searched
+source: https://www.nbnco.com.au/business/small-business/plans
+audience: business-product
+pricing_basis: none
+published: false
+delivery:
+  delivery: managed
+plan_count: 5
+note: >-
+  The page lists nbn wholesale business speed tiers for the broadband network, not API pricing, and
+  shows no prices: nbn sells wholesale to retail providers ("Check with your provider about what’s
+  available to you."). Wholesale price lists under the WBA were not read. No pricing exists for the
+  B2B Platform Interfacing Service API on any public page found.
+plans:
+- name: nbn Business 2000 Pro
+  price_text: "Check with your provider about what’s available to you."
+  description: nbn Business Service Pro; Technology available FTTP
+  features: ["2000 Mbps download", "500 Mbps upload"]
+  limits: []
+- name: nbn Business ~1000 Pro
+  price_text: "Check with your provider about what’s available to you."
+  description: nbn Business Service Pro; Technology available FTTP
+  features: ["~1000 Mbps download", "400 Mbps upload"]
+  limits: []
+- name: nbn Business 500 Pro
+  price_text: "Check with your provider about what’s available to you."
+  description: nbn Business Service Pro; Technology available FTTP
+  features: ["500 Mbps download", "200 Mbps upload"]
+  limits: []
+- name: nbn Business 250 Essentials
+  price_text: "Check with your provider about what’s available to you."
+  description: nbn Business Service Essentials; Technology available FTTP & HFC
+  features: ["250 Mbps download", "100 Mbps upload"]
+  limits: []
+- name: nbn Business 100 Essentials
+  price_text: "Check with your provider about what’s available to you."
+  description: nbn Business Service Essentials; Technology available FTTP & HFC
+  features: ["100 Mbps download", "40 Mbps upload"]
+  limits: []

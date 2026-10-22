@@ -1,0 +1,26 @@
+name: NBN Co authentication
+generated: '2026-10-22'
+method: searched
+source: https://www.nbnco.com.au/content/dam/nbn/documents/sell/wba/2024/sfaa-wba-nbn-platform-interfacing-service-service-terms-20241003.pdf.coredownload.pdf
+docs: https://www.nbnco.com.au/content/dam/nbn/documents/sell/wba/2024/sfaa-wba-nbn-platform-interfacing-service-service-terms-20241003.pdf.coredownload.pdf
+note: >-
+  No public API or OpenAPI is published. The WBA nbn Platform Interfacing Service service terms
+  (HTTP 200, application/pdf, fetched 2026-10-22) describe B2B Access through an API gateway hosted
+  by nbn secured with digital certificates and API Credentials issued to contracted retail service
+  providers (RSPs). The B2B Specifications that define the actual security protocols are confidential
+  and were not read; scheme details below are only what the terms state.
+schemes:
+- name: digital-certificates
+  type: mutualTLS
+  type_confidence: low
+  description: Digital certificates created by nbn from information the RSP supplies, used in connection with B2B Access.
+  evidence: "provide to nbn all information reasonably required and requested by nbn to create any digital certificates and security protocols to be used in connection with B2B Access"
+  note: The terms say "digital certificates"; that this is mutual TLS is an inference from that wording, not stated.
+- name: api-credentials
+  type: unspecified
+  description: API Credentials issued by nbn to the RSP for B2B Access via the nbn-hosted API gateway; treated as nbn Confidential Information.
+  evidence: "manage digital certificates and API Credentials as Confidential Information of nbn"
+access:
+  audience: contracted retail service providers under the Wholesale Broadband Agreement
+  developer_portal: "nbn® Developer Portal (access information supplied to RSPs; confidential, no public URL)"
+  evidence: "acquire access information in relation to the nbn® Developer Portal and maintain such access information as Confidential Information of nbn"
