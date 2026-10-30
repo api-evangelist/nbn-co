@@ -64,5 +64,102 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-NBN Co is a company surfaced via the API Evangelist harvest backlog (source: australia-apidays-2026) and added to the network as a stub for full-pipeline profiling.
-- https://nbnco.com.au/
+NBN Co (styled "nbn") is the Australian Government-owned wholesale operator of the National Broadband Network, building and running the fixed-line, fixed wireless and satellite access network that retail service providers (RSPs) resell to homes and businesses across Australia. Its website describes the mission as "evolving Australia's digital backbone to meet the ever-changing needs of people across the country." NBN Co does not publish a public developer API; its Wholesale Broadband Agreement Platform Interfacing Service terms describe B2B Access for contracted RSPs through an API gateway hosted by nbn and an nbn Developer Portal, both gated to wholesale customers. Surfaced via the API Evangelist harvest backlog (source: australia-apidays-2026).
+
+**Areas:** Company · Telecommunications · Broadband · Wholesale · Australia · Network Infrastructure · B2B
+
+## NBN Co on APIs.io
+
+Everything profiled for NBN Co is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/nbn-co/](https://apis.io/providers/nbn-co/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [nbn Platform Interfacing Service (B2B Access)](https://apis.io/apis/nbn-co/nbn-platform-interfacing-service-b2b-access/) — B2B Access under the Wholesale Broadband Agreement Platform Interfacing Service: contracted retail service providers integrate their RSP B2B Applications…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Nbn Co Authentication](https://apis.io/security/nbn-co/nbn-co-authentication/)
+- [Nbn Co Domain Security](https://apis.io/security/nbn-co/nbn-co-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Nbn Co Plans Pricing](https://apis.io/plans/nbn-co/nbn-co-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Nbn Co Rate Limits](https://apis.io/rate-limits/nbn-co/nbn-co-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.nbnco.com.au/)
+- [Sign up](https://www.nbnco.com.au/register)
+- [Support](https://www.nbnco.com.au/support)
+- [Blog](https://www.nbnco.com.au/blog)
+- [Terms of service](https://www.nbnco.com.au/utility/terms-and-conditions-of-use)
+- [Privacy policy](https://www.nbnco.com.au/utility/privacy-policy)
+- [Status](https://www.nbnco.com.au/support/network-status)
+
+## API Evangelist rating
+
+**Kin Score 25.6** — emerging · rubric 0.24.0 · scored 2026-10-22
+
+| Facet | Score |
+|---|---|
+| Discoverability | 58.9 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 28.6 |
+| Access clarity | 62.6 |
+
+**Agent readiness 8.1** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 16.7** — Telecommunications
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/nbn-co/](https://apis.io/providers/nbn-co/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for NBN Co: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/nbn-co/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
